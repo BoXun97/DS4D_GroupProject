@@ -1,0 +1,64 @@
+using System.Collections;
+using UnityEngine;
+
+
+/// <summary>
+/// change the color of ball
+/// </summary>
+public class ChangeBall : MonoBehaviour
+{
+    private Material deMaterial;         //set material
+    public  float    speed       = 10f;  //change the speed
+    public  float    rotateSpeed = 360f; //set rotate speed
+
+
+    void Start()
+    {
+        deMaterial = GetComponent<MeshRenderer>().material;
+        InvokeRepeating("ChangeColor", 1, 1);
+    }
+
+
+    void Update()
+    {
+        transform.Rotate(Vector3.up, rotateSpeed * Time.deltaTime); //rotation
+    }
+
+
+    /// <summary>
+    /// radom color
+    /// </summary>
+    /// <returns> Color </returns>
+    private Color RandomColor()
+    {
+        float r     = Random.Range(0f, 1f);
+        float g     = Random.Range(0f, 1f);
+        float b     = Random.Range(0f, 1f);
+        Color color = new Color(r, g, b);
+        return color;
+    }
+
+
+    /// <summary>
+    /// change color
+    /// </summary>
+    private void ChangeColor()
+    {
+        StopAllCoroutines();
+        Color temColor = RandomColor();
+        StartCoroutine(ColorEnumerator(temColor));
+    }
+
+
+    /// <summary>
+    /// </summary>
+    /// <returns></returns>
+    IEnumerator ColorEnumerator(Color temColor)
+    {
+        while (true) 
+        {
+            deMaterial.color = Color.Lerp(deMaterial.color, temColor, speed * Time.deltaTime); 
+            yield return 10;                                                                   
+        }
+    }
+}
