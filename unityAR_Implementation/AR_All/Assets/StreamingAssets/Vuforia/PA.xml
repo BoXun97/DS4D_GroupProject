@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="LDA_disable03" size="1.000000 1.000000" />
+    <ImageTarget name="LDA_disable02" size="1.000000 1.000000" />
+    <ImageTarget name="LDA_disable01" size="1.000000 1.000000" />
+    <ImageTarget name="LDA_refugee03" size="1.000000 1.000000" />
+    <ImageTarget name="LDA_refugee02" size="1.000000 1.000000" />
+    <ImageTarget name="LDA_refugee01" size="1.000000 1.000000" />
+    <ImageTarget name="LDA_children03" size="1.000000 1.000000" />
+    <ImageTarget name="LDA_children02" size="1.000000 1.000000" />
+    <ImageTarget name="LDA_children01" size="1.000000 1.000000" />
+    <ImageTarget name="LDA_elder03" size="1.000000 1.000000" />
+    <ImageTarget name="LDA_elder02" size="1.000000 1.000000" />
+    <ImageTarget name="LDA_elder01" size="1.000000 1.000000" />
+    <ImageTarget name="WC_disable03" size="1.000000 1.000000" />
+    <ImageTarget name="WC_disable02" size="1.000000 1.000000" />
+    <ImageTarget name="WC_disable01" size="1.000000 1.000000" />
+    <ImageTarget name="WC_refugee03" size="1.000000 1.000000" />
+    <ImageTarget name="WC_refugee02" size="1.000000 1.000000" />
+    <ImageTarget name="WC_refugee01" size="1.000000 1.000000" />
+    <ImageTarget name="WC_children03" size="1.000000 1.000000" />
+    <ImageTarget name="WC_elder02" size="1.000000 1.000000" />
+    <ImageTarget name="WC_children02" size="1.000000 1.000000" />
+    <ImageTarget name="WC_children01" size="1.000000 1.000000" />
+    <ImageTarget name="WC_elder03" size="1.000000 1.000000" />
+    <ImageTarget name="WC_elder01" size="1.000000 1.000000" />
+    <ImageTarget name="dove" size="1.000000 0.500000" />
+  </Tracking>
+</QCARConfig>
