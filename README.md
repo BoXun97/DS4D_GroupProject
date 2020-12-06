@@ -1,5 +1,5 @@
 # CS4320FinalProject
-##Assigment 3 and 4
+## Assigment 3 and 4<br>
 [Go Back to Homepage](https://github.com/BoXun97/DS4D_GroupProject)
 ### Team Members
 Qing Du<br>
@@ -9,7 +9,7 @@ Boao Huang<br>
 ***
 
 ### Technology Stack 
-Language : ***python*, *C#*** 
+Language : ***python*, *C#*, *Vuforia*** 
 ***
 
 ### Briefly Introduction 
