@@ -1,0 +1,1 @@
+﻿Protected virtual void OnTrackingFound(){	GameObject ldaModel = GameObject.Instantiate(ldaPrefab,transform.position-new Vector3(0,1.6f,0),transform.rotation);	ldaModel.transform.parent = this.transform;}
