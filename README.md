@@ -2,7 +2,7 @@
 ## Assigment 3 and 4<br>
 [Go Back to Homepage](https://github.com/BoXun97/DS4D_GroupProject)
 ### Team Members
-Qing Du<br>
+Qin Du<br>
 Xiaohui He<br>
 Yitong Gan<br>
 Boao Huang<br>
